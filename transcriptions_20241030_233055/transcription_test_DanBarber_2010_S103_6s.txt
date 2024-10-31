@@ -1,0 +1,10 @@
+Split: test
+Speaker ID: DanBarber_2010_S103
+Duration: 0.09 minutes
+Processing method: 30-second chunks with 2-second overlap
+
+Original text:
+ later that day i was driving around this property with miguel and i asked him i said for a place that seems so natural
+
+Whisper transcription:
+Later that day I was driving around this property with Miguel and I asked him I said for a place it seems so natural.

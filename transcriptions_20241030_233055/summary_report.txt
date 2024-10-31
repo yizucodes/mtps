@@ -1,0 +1,108 @@
+=== TEDLIUM Long Form Transcription Summary ===
+
+Processing date: 20241030_233055
+Total samples processed: 19
+
+
+VALIDATION Split Summary:
+Number of samples: 8
+Total duration: 93.79 minutes
+
+- Speaker: Al_Gore
+  Duration: 4.85 minutes
+  Original text length: 4791 chars
+  Transcription length: 4950 chars
+
+- Speaker: Barry_Schwartz
+  Duration: 18.41 minutes
+  Original text length: 17166 chars
+  Transcription length: 18262 chars
+
+- Speaker: Blaise_Agueray_Arcas
+  Duration: 6.35 minutes
+  Original text length: 7388 chars
+  Transcription length: 7350 chars
+
+- Speaker: Brian_Cox
+  Duration: 3.12 minutes
+  Original text length: 3213 chars
+  Transcription length: 3411 chars
+
+- Speaker: Craig_Venter
+  Duration: 15.13 minutes
+  Original text length: 13131 chars
+  Transcription length: 13797 chars
+
+- Speaker: David_Merrill
+  Duration: 5.60 minutes
+  Original text length: 5851 chars
+  Transcription length: 6256 chars
+
+- Speaker: Elizabeth_Gilbert
+  Duration: 18.67 minutes
+  Original text length: 19203 chars
+  Transcription length: 20080 chars
+
+- Speaker: Wade_Davis
+  Duration: 21.65 minutes
+  Original text length: 23258 chars
+  Transcription length: 24111 chars
+
+TEST Split Summary:
+Number of samples: 11
+Total duration: 148.42 minutes
+
+- Speaker: AimeeMullins
+  Duration: 20.82 minutes
+  Original text length: 15698 chars
+  Transcription length: 16767 chars
+
+- Speaker: BillGates
+  Duration: 25.10 minutes
+  Original text length: 23151 chars
+  Transcription length: 24349 chars
+
+- Speaker: DanBarber
+  Duration: 13.90 minutes
+  Original text length: 12727 chars
+  Transcription length: 13352 chars
+
+- Speaker: DanBarber_2010_S103
+  Duration: 0.09 minutes
+  Original text length: 119 chars
+  Transcription length: 117 chars
+
+- Speaker: DanielKahneman
+  Duration: 18.26 minutes
+  Original text length: 16173 chars
+  Transcription length: 17147 chars
+
+- Speaker: EricMead_2009P_EricMead
+  Duration: 7.65 minutes
+  Original text length: 7520 chars
+  Transcription length: 7989 chars
+
+- Speaker: GaryFlake
+  Duration: 5.75 minutes
+  Original text length: 5657 chars
+  Transcription length: 5842 chars
+
+- Speaker: JamesCameron
+  Duration: 16.37 minutes
+  Original text length: 15472 chars
+  Transcription length: 15887 chars
+
+- Speaker: JaneMcGonigal
+  Duration: 19.46 minutes
+  Original text length: 20337 chars
+  Transcription length: 20972 chars
+
+- Speaker: MichaelSpecter
+  Duration: 15.35 minutes
+  Original text length: 15692 chars
+  Transcription length: 16364 chars
+
+- Speaker: RobertGupta
+  Duration: 5.67 minutes
+  Original text length: 4923 chars
+  Transcription length: 5040 chars
