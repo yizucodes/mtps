@@ -1,0 +1,151 @@
+=== Word Error Rate (WER) Analysis Report ===
+
+Total files processed: 20
+Average WER: 0.3082
+
+Individual Results:
+
+Speaker: Unknown
+Duration: Unknown
+WER: 0.0077
+Word Counts - Original: 364, Transcribed: 363
+File: wer_report.txt
+--------------------------------------------------
+
+Speaker: David_Merrill
+Duration: 5.60 minutes
+WER: 0.2644
+Word Counts - Original: 1108, Transcribed: 1165
+File: transcription_validation_David_Merrill_336s.txt
+--------------------------------------------------
+
+Speaker: DanBarber_2010_S103
+Duration: 0.09 minutes
+WER: 0.2917
+Word Counts - Original: 24, Transcribed: 24
+File: transcription_test_DanBarber_2010_S103_6s.txt
+--------------------------------------------------
+
+Speaker: Craig_Venter
+Duration: 15.13 minutes
+WER: 0.2952
+Word Counts - Original: 2398, Transcribed: 2490
+File: transcription_validation_Craig_Venter_908s.txt
+--------------------------------------------------
+
+Speaker: DanielKahneman
+Duration: 18.26 minutes
+WER: 0.2959
+Word Counts - Original: 3015, Transcribed: 3121
+File: transcription_test_DanielKahneman_1096s.txt
+--------------------------------------------------
+
+Speaker: JaneMcGonigal
+Duration: 19.46 minutes
+WER: 0.2985
+Word Counts - Original: 3819, Transcribed: 3837
+File: transcription_test_JaneMcGonigal_1168s.txt
+--------------------------------------------------
+
+Speaker: Al_Gore
+Duration: 4.85 minutes
+WER: 0.3049
+Word Counts - Original: 879, Transcribed: 895
+File: transcription_validation_Al_Gore_291s.txt
+--------------------------------------------------
+
+Speaker: Wade_Davis
+Duration: 21.65 minutes
+WER: 0.3081
+Word Counts - Original: 4164, Transcribed: 4252
+File: transcription_validation_Wade_Davis_1299s.txt
+--------------------------------------------------
+
+Speaker: Barry_Schwartz
+Duration: 18.41 minutes
+WER: 0.3110
+Word Counts - Original: 3219, Transcribed: 3362
+File: transcription_validation_Barry_Schwartz_1105s.txt
+--------------------------------------------------
+
+Speaker: Blaise_Agueray_Arcas
+Duration: 6.35 minutes
+WER: 0.3113
+Word Counts - Original: 1394, Transcribed: 1325
+File: transcription_validation_Blaise_Agueray_Arcas_381s.txt
+--------------------------------------------------
+
+Speaker: Elizabeth_Gilbert
+Duration: 18.67 minutes
+WER: 0.3148
+Word Counts - Original: 3675, Transcribed: 3735
+File: transcription_validation_Elizabeth_Gilbert_1120s.txt
+--------------------------------------------------
+
+Speaker: EricMead_2009P_EricMead
+Duration: 7.65 minutes
+WER: 0.3212
+Word Counts - Original: 1510, Transcribed: 1554
+File: transcription_test_EricMead_2009P_EricMead_459s.txt
+--------------------------------------------------
+
+Speaker: AimeeMullins
+Duration: 20.82 minutes
+WER: 0.3217
+Word Counts - Original: 2897, Transcribed: 3022
+File: transcription_test_AimeeMullins_1249s.txt
+--------------------------------------------------
+
+Speaker: BillGates
+Duration: 25.10 minutes
+WER: 0.3335
+Word Counts - Original: 4342, Transcribed: 4440
+File: transcription_test_BillGates_1506s.txt
+--------------------------------------------------
+
+Speaker: JamesCameron
+Duration: 16.37 minutes
+WER: 0.3449
+Word Counts - Original: 2972, Transcribed: 2931
+File: transcription_test_JamesCameron_982s.txt
+--------------------------------------------------
+
+Speaker: GaryFlake
+Duration: 5.75 minutes
+WER: 0.3475
+Word Counts - Original: 1102, Transcribed: 1117
+File: transcription_test_GaryFlake_345s.txt
+--------------------------------------------------
+
+Speaker: RobertGupta
+Duration: 5.67 minutes
+WER: 0.3505
+Word Counts - Original: 876, Transcribed: 884
+File: transcription_test_RobertGupta_340s.txt
+--------------------------------------------------
+
+Speaker: Brian_Cox
+Duration: 3.12 minutes
+WER: 0.3644
+Word Counts - Original: 590, Transcribed: 614
+File: transcription_validation_Brian_Cox_187s.txt
+--------------------------------------------------
+
+Speaker: MichaelSpecter
+Duration: 15.35 minutes
+WER: 0.3749
+Word Counts - Original: 2966, Transcribed: 3012
+File: transcription_test_MichaelSpecter_921s.txt
+--------------------------------------------------
+
+Speaker: DanBarber
+Duration: 13.90 minutes
+WER: 0.4016
+Word Counts - Original: 2383, Transcribed: 2431
+File: transcription_test_DanBarber_834s.txt
+--------------------------------------------------
+
+Summary Statistics:
+Best WER: 0.0077
+Worst WER: 0.4016
+Median WER: 0.3148
