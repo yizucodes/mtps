@@ -74,6 +74,8 @@ def preprocess_transcription(text):
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+
+## TODO: Try passing Whisper transcription text itself instead of the .txt file as the .txt file also contains original text
 # Test file for summarization
 file_path = 'data/transcription_test_AimeeMullins_1249s.txt'
 with open(file_path, 'r') as file:
