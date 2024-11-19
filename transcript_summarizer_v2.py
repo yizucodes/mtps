@@ -263,36 +263,38 @@ def save_summary(summary, original_file_path):
     print(f"Summary saved to: {output_file_path}")
 
 
-def post_process_summary(summary):
+def post_process_summary(summary_text):
     """
-    Post-processes the summary to fix known issues, such as incorrect names or terms.
+    Postprocesses the summarized text by fixing known errors, correcting grammar,
+    and performing general cleanup.
 
     Args:
-        summary (str): The summarized text.
+        summary_text (str): The input summarized text.
 
     Returns:
-        str: The post-processed summary text.
+        str: The cleaned and corrected text.
     """
-    # Define corrections for known errors in summarization
-    corrections = {
+    # Step 1: Apply custom corrections
+    custom_corrections = {
         "Sara Pescara": "Amy Mullins",
         "Cable of Bones": "fibula bones",
-        "Dr Keane": "Dr. Keane",
-        "AI DuPont": "A.I. duPont",
         "someone-me-": "someone like me",
         "It no longer has our natural childlike curiosity": "It no longer fosters natural childlike curiosity",
-        # Add more corrections as necessary
+        # Add more corrections as needed
     }
 
-    # Apply corrections
-    for incorrect, correct in corrections.items():
-        summary = re.sub(r'\b' + re.escape(incorrect) +
-                         r'\b', correct, summary)
+    for wrong, correct in custom_corrections.items():
+        summary_text = re.sub(re.escape(wrong), correct,
+                              summary_text, flags=re.IGNORECASE)
 
-    # Final cleanup: remove extra spaces or unintended artifacts
-    summary = re.sub(r'\s+', ' ', summary).strip()
+    # Step 2: Correct grammar and punctuation
+    matches = tool.check(summary_text)
+    summary_text = language_tool_python.utils.correct(summary_text, matches)
 
-    return summary
+    # Step 3: Final cleanup (e.g., removing extra spaces, fixing typos)
+    summary_text = re.sub(r'\s+', ' ', summary_text).strip()
+
+    return summary_text
 
 
 # Main execution flow
