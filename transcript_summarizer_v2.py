@@ -167,17 +167,17 @@ def split_text_into_chunks(text, tokenizer, max_tokens=1024):
     return chunks
 
 
-def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, max_length=130, min_length=30):
+def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, default_max_length=350, default_min_length=100):
     """
-    Summarizes the processed text using the BART summarization model.
+    Summarizes the processed text using the BART summarization model with dynamic max/min length adjustments.
 
     Args:
         processed_text (str): The preprocessed text to summarize.
         summarizer (Pipeline): The Hugging Face summarization pipeline.
         tokenizer (Tokenizer): The tokenizer used to count tokens.
         max_tokens (int): The maximum number of tokens per chunk.
-        max_length (int): The maximum length of each summary chunk.
-        min_length (int): The minimum length of each summary chunk.
+        default_max_length (int): Default maximum length for summaries.
+        default_min_length (int): Default minimum length for summaries.
 
     Returns:
         str: The combined summary.
@@ -187,6 +187,17 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, max_l
 
     for i, chunk in enumerate(chunks):
         print(f"Summarizing chunk {i+1}/{len(chunks)}...")
+
+        # Calculate input length for the current chunk
+        input_length = len(tokenizer.encode(chunk, add_special_tokens=False))
+
+        # Dynamically adjust max_length and min_length based on input length
+        max_length = max(30, min(default_max_length, int(
+            input_length * 0.5)))  # 50% of input length
+        min_length = max(10, min(default_min_length, int(
+            input_length * 0.2)))  # 20% of input length
+
+        # Perform summarization
         summary = summarizer(
             chunk,
             max_length=max_length,
@@ -198,7 +209,7 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, max_l
     # Combine summaries
     combined_summary = " ".join(summaries)
 
-    # Optionally, perform a second summarization on the combined summary
+    # Optionally perform a second summarization pass if combined summary is too long
     if len(tokenizer.encode(combined_summary, add_special_tokens=False)) > max_tokens:
         print("Combined summary is too long. Performing a second round of summarization...")
         combined_chunks = split_text_into_chunks(
@@ -207,6 +218,12 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, max_l
         for i, chunk in enumerate(combined_chunks):
             print(f"Summarizing combined chunk {
                   i+1}/{len(combined_chunks)}...")
+            input_length = len(tokenizer.encode(
+                chunk, add_special_tokens=False))
+            max_length = max(
+                30, min(default_max_length, int(input_length * 0.5)))
+            min_length = max(
+                10, min(default_min_length, int(input_length * 0.2)))
             summary = summarizer(
                 chunk,
                 max_length=max_length,
@@ -278,11 +295,11 @@ if __name__ == "__main__":
             "summarization", model=model, tokenizer=tokenizer)
         print("BART model and tokenizer loaded successfully.")
 
-        # Summarize the processed text
-        print("\nStarting summarization...")
-        summary = summarize_text(
-            processed_text, summarizer, tokenizer)
-        print("\nSummary:\n", summary)
+    # Summarize the processed text
+    print("\nStarting summarization...")
+    summary = summarize_text(
+        processed_text, summarizer, tokenizer)
+    print("\nSummary:\n", summary)
 
-        # Save the summary to a file
-        save_summary(summary, file_path)
+    # Save the summary to a file
+    save_summary(summary, file_path)
