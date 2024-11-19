@@ -131,24 +131,158 @@ def preprocess_transcription(text):
 
     return text
 
-# Load the transcription file
-file_path = 'data/transcription_test_DanBarber_2010_S103_6s.txt'
-# 'data/transcription_test_AimeeMullins_1249s.txt'
+
+def split_text_into_chunks(text, tokenizer, max_tokens=1024):
+    """
+    Splits the text into chunks that do not exceed the maximum token limit.
+
+    Args:
+        text (str): The input text to split.
+        tokenizer (Tokenizer): The tokenizer used to count tokens.
+        max_tokens (int): The maximum number of tokens per chunk.
+
+    Returns:
+        List[str]: A list of text chunks.
+    """
+    sentences = sent_tokenize(text)
+    chunks = []
+    current_chunk = ""
+    current_length = 0
+
+    for sentence in sentences:
+        sentence_length = len(tokenizer.encode(
+            sentence, add_special_tokens=False))
+        if current_length + sentence_length <= max_tokens:
+            current_chunk += " " + sentence
+            current_length += sentence_length
+        else:
+            if current_chunk:
+                chunks.append(current_chunk.strip())
+            current_chunk = sentence
+            current_length = sentence_length
+
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+
+    return chunks
 
 
-with open(file_path, 'r', encoding='utf-8') as file:
-    text = file.read()
+def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, max_length=130, min_length=30):
+    """
+    Summarizes the processed text using the BART summarization model.
 
-# Extract the Whisper transcription
-whisper_text = extract_whisper_transcription(text)
+    Args:
+        processed_text (str): The preprocessed text to summarize.
+        summarizer (Pipeline): The Hugging Face summarization pipeline.
+        tokenizer (Tokenizer): The tokenizer used to count tokens.
+        max_tokens (int): The maximum number of tokens per chunk.
+        max_length (int): The maximum length of each summary chunk.
+        min_length (int): The minimum length of each summary chunk.
 
-# Check if transcription was found
-if not whisper_text:
-    print("Whisper transcription not found in the file.")
-else:
-    # Apply preprocessing to clean the text
-    processed_text = preprocess_transcription(whisper_text)
+    Returns:
+        str: The combined summary.
+    """
+    chunks = split_text_into_chunks(processed_text, tokenizer, max_tokens)
+    summaries = []
 
-    # At this point, 'processed_text' is ready for summarization
-    # For testing, you can print the processed text
-    print("Processed Text:\n", processed_text)
+    for i, chunk in enumerate(chunks):
+        print(f"Summarizing chunk {i+1}/{len(chunks)}...")
+        summary = summarizer(
+            chunk,
+            max_length=max_length,
+            min_length=min_length,
+            do_sample=False
+        )
+        summaries.append(summary[0]['summary_text'])
+
+    # Combine summaries
+    combined_summary = " ".join(summaries)
+
+    # Optionally, perform a second summarization on the combined summary
+    if len(tokenizer.encode(combined_summary, add_special_tokens=False)) > max_tokens:
+        print("Combined summary is too long. Performing a second round of summarization...")
+        combined_chunks = split_text_into_chunks(
+            combined_summary, tokenizer, max_tokens)
+        final_summaries = []
+        for i, chunk in enumerate(combined_chunks):
+            print(f"Summarizing combined chunk {
+                  i+1}/{len(combined_chunks)}...")
+            summary = summarizer(
+                chunk,
+                max_length=max_length,
+                min_length=min_length,
+                do_sample=False
+            )
+            final_summaries.append(summary[0]['summary_text'])
+        final_summary = " ".join(final_summaries)
+    else:
+        final_summary = combined_summary
+
+    return final_summary
+
+
+def save_summary(summary, original_file_path):
+    """
+    Saves the summary to a new file in the 'summarized_texts_v2' directory.
+
+    Args:
+        summary (str): The summary text to save.
+        original_file_path (str): The path to the original transcription file.
+    """
+    # Create the output directory "summarized_texts" if it doesn't exist
+    output_dir = os.path.join(os.path.dirname(
+        original_file_path), 'summarized_texts_v2')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Generate the output file name
+    base_name = os.path.splitext(os.path.basename(original_file_path))[0]
+    output_file_name = f"{base_name}_summarized.txt"
+    output_file_path = os.path.join(output_dir, output_file_name)
+
+    # Write the summary to the file
+    with open(output_file_path, 'w', encoding='utf-8') as output_file:
+        output_file.write(summary)
+
+    print(f"Summary saved to: {output_file_path}")
+
+# Main execution flow
+
+
+if __name__ == "__main__":
+    # Load the transcription file
+    file_path = 'data/transcription_test_AimeeMullins_1249s.txt'
+
+    with open(file_path, 'r', encoding='utf-8') as file:
+        text = file.read()
+
+    # Extract the Whisper transcription
+    whisper_text = extract_whisper_transcription(text)
+
+    # Check if transcription was found
+    if not whisper_text:
+        print("Whisper transcription not found in the file.")
+    else:
+        # Apply preprocessing to clean the text
+        processed_text = preprocess_transcription(whisper_text)
+
+        # At this point, 'processed_text' is ready for summarization
+        # For testing, you can print the processed text
+        print("Processed Text:\n", processed_text)
+
+        # Load BART tokenizer and model
+        print("\nLoading BART model and tokenizer...")
+        tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            "facebook/bart-large-cnn")
+        summarizer = pipeline(
+            "summarization", model=model, tokenizer=tokenizer)
+        print("BART model and tokenizer loaded successfully.")
+
+        # Summarize the processed text
+        print("\nStarting summarization...")
+        summary = summarize_text(
+            processed_text, summarizer, tokenizer)
+        print("\nSummary:\n", summary)
+
+        # Save the summary to a file
+        save_summary(summary, file_path)
