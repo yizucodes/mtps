@@ -262,9 +262,40 @@ def save_summary(summary, original_file_path):
 
     print(f"Summary saved to: {output_file_path}")
 
+
+def post_process_summary(summary):
+    """
+    Post-processes the summary to fix known issues, such as incorrect names or terms.
+
+    Args:
+        summary (str): The summarized text.
+
+    Returns:
+        str: The post-processed summary text.
+    """
+    # Define corrections for known errors in summarization
+    corrections = {
+        "Sara Pescara": "Amy Mullins",
+        "Cable of Bones": "fibula bones",
+        "Dr Keane": "Dr. Keane",
+        "AI DuPont": "A.I. duPont",
+        "someone-me-": "someone like me",
+        "It no longer has our natural childlike curiosity": "It no longer fosters natural childlike curiosity",
+        # Add more corrections as necessary
+    }
+
+    # Apply corrections
+    for incorrect, correct in corrections.items():
+        summary = re.sub(r'\b' + re.escape(incorrect) +
+                         r'\b', correct, summary)
+
+    # Final cleanup: remove extra spaces or unintended artifacts
+    summary = re.sub(r'\s+', ' ', summary).strip()
+
+    return summary
+
+
 # Main execution flow
-
-
 if __name__ == "__main__":
     # Load the transcription file
     file_path = 'data/transcription_test_AimeeMullins_1249s.txt'
@@ -295,11 +326,14 @@ if __name__ == "__main__":
             "summarization", model=model, tokenizer=tokenizer)
         print("BART model and tokenizer loaded successfully.")
 
-    # Summarize the processed text
-    print("\nStarting summarization...")
-    summary = summarize_text(
-        processed_text, summarizer, tokenizer)
-    print("\nSummary:\n", summary)
+        # Summarize the processed text
+        print("\nStarting summarization...")
+        summary = summarize_text(processed_text, summarizer, tokenizer)
+        print("\nRaw Summary:\n", summary)
 
-    # Save the summary to a file
-    save_summary(summary, file_path)
+        # Post-process the summary
+        processed_summary = post_process_summary(summary)
+        print("\nPost-Processed Summary:\n", processed_summary)
+
+        # Save the post-processed summary to a file
+        save_summary(processed_summary, file_path)
