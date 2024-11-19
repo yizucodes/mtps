@@ -1,3 +1,6 @@
+import language_tool_python
+from deepmultilingualpunctuation import PunctuationModel
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 import re
 import os
 import nltk
@@ -12,13 +15,10 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 # pip install deepmultilingualpunctuation
 
 # Uncomment the lines below if you need to download NLTK data
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 
 # Import necessary modules from transformers and other libraries
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
-from deepmultilingualpunctuation import PunctuationModel
-import language_tool_python
 
 # Initialize the punctuation restoration model
 punctuation_model = PunctuationModel()
@@ -28,31 +28,33 @@ tool = language_tool_python.LanguageTool('en-US')
 
 # Define helper functions
 
+
 def extract_whisper_transcription(text):
     """
     Extracts the Whisper transcription text from a document.
-    
+
     Args:
         text (str): The input text containing the transcription
-        
+
     Returns:
         str: The extracted Whisper transcription text, or empty string if not found
     """
     # Look for the marker
     marker = "Whisper transcription:"
-    
+
     # Find the position of the marker
     marker_pos = text.find(marker)
-    
+
     # If marker is not found, return empty string
     if marker_pos == -1:
         return ""
-    
+
     # Get the text after the marker
     # Add len(marker) to start from the end of the marker
     transcription = text[marker_pos + len(marker):].strip()
-    
+
     return transcription
+
 
 def remove_repetitions(text):
     """
@@ -64,6 +66,7 @@ def remove_repetitions(text):
     text = re.sub(r'\b(\w+ \w+)( \1\b)+', r'\1', text)
     return text
 
+
 def correct_grammar(text):
     """
     Corrects grammatical errors in the text using LanguageTool.
@@ -72,26 +75,32 @@ def correct_grammar(text):
     corrected_text = language_tool_python.utils.correct(text, matches)
     return corrected_text
 
+
 def preprocess_transcription(text):
     """Preprocess transcription text for summarization."""
+    import unicodedata
+
     # 1. Remove non-speech artifacts (e.g., [laughter], (applause))
     text = re.sub(r'\[.*?\]', '', text)
     text = re.sub(r'\(.*?\)', '', text)
-    
-    # 2. Remove filler words and phrases
+
+    # 2. Replace typographic apostrophes with standard apostrophes
+    text = text.replace('’', "'")
+
+    # 3. Remove filler words and phrases
     filler_words = [
         'um', 'uh', 'you know', 'like', 'i mean', 'hmm', 'ah', 'er', 'uhm',
         'you see', 'basically', 'actually', 'sort of', 'kind of', 'you know what i mean',
         'you know what i\'m saying', 'well', 'so', 'let me see', 'i guess', 'i think'
     ]
-    # Create a regex pattern to match filler words
-    filler_pattern = r'\b(' + '|'.join(filler_words) + r')\b'
+    # Use negative lookbehind and lookahead to avoid matching parts of words
+    filler_pattern = r'(?<!\w)(' + '|'.join(filler_words) + r')(?!\w)'
     text = re.sub(filler_pattern, '', text, flags=re.IGNORECASE)
-    
-    # 3. Remove extra whitespaces
+
+    # 4. Remove extra whitespaces
     text = re.sub(r'\s+', ' ', text).strip()
-    
-    # 4. Apply custom corrections for known transcription errors
+
+    # 5. Apply custom corrections for known transcription errors
     custom_corrections = {
         'rect, stalled': 'wrecked, stalled',
         'done up, done for, done in': 'done up, done for, done in',
@@ -103,23 +112,23 @@ def preprocess_transcription(text):
     }
     for wrong, right in custom_corrections.items():
         text = re.sub(re.escape(wrong), right, text, flags=re.IGNORECASE)
-    
-    # 5. Remove repetitions
+
+    # 6. Remove repetitions
     text = remove_repetitions(text)
-    
-    # 6. Restore punctuation
+
+    # 7. Restore punctuation
     text = punctuation_model.restore_punctuation(text)
-    
-    # 7. Correct grammar
+
+    # 8. Correct grammar
     text = correct_grammar(text)
-    
-    # 8. Remove non-ASCII characters
+
+    # 9. Remove non-ASCII characters
     text = re.sub(r'[^\x00-\x7F]+', '', text)
-    
-    # 9. Final cleanup
+
+    # 10. Final cleanup
     # Ensures that the text does not contain irregular spacing, which can occur after removing words or characters in previous preprocessing steps
     text = re.sub(r'\s+', ' ', text).strip()
-    
+
     return text
 
 # Load the transcription file
