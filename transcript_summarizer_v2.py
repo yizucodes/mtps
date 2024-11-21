@@ -198,13 +198,17 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, defau
             input_length * 0.2)))  # 20% of input length
 
         # Perform summarization
-        summary = summarizer(
-            chunk,
-            max_length=max_length,
-            min_length=min_length,
-            do_sample=False
-        )
-        summaries.append(summary[0]['summary_text'])
+        try:
+            summary = summarizer(
+                chunk,
+                max_length=max_length,
+                min_length=min_length,
+                do_sample=False
+            )
+            summaries.append(summary[0]['summary_text'])
+        except Exception as e:
+            print(f"Error summarizing chunk {i+1}: {e}")
+            print("Skipping this chunk and moving to the next one.")
 
     # Combine summaries
     combined_summary = " ".join(summaries)
@@ -224,13 +228,17 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, defau
                 30, min(default_max_length, int(input_length * 0.5)))
             min_length = max(
                 10, min(default_min_length, int(input_length * 0.2)))
-            summary = summarizer(
-                chunk,
-                max_length=max_length,
-                min_length=min_length,
-                do_sample=False
-            )
-            final_summaries.append(summary[0]['summary_text'])
+            try:
+                summary = summarizer(
+                    chunk,
+                    max_length=max_length,
+                    min_length=min_length,
+                    do_sample=False
+                )
+                final_summaries.append(summary[0]['summary_text'])
+            except Exception as e:
+                print(f"Error summarizing combined chunk {i+1}: {e}")
+                print("Skipping this chunk and moving to the next one.")
         final_summary = " ".join(final_summaries)
     else:
         final_summary = combined_summary
@@ -300,7 +308,7 @@ def post_process_summary(summary_text):
 # Main execution flow
 if __name__ == "__main__":
     # Load the transcription file
-    file_path = 'data/transcription_test_AimeeMullins_1249s.txt'
+    file_path = 'data/transcription_test_MichaelSpecter_921s.txt'
 
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()
@@ -330,7 +338,13 @@ if __name__ == "__main__":
 
         # Summarize the processed text
         print("\nStarting summarization...")
-        summary = summarize_text(processed_text, summarizer, tokenizer)
+        try:
+            summary = summarize_text(processed_text, summarizer, tokenizer)
+        except Exception as e:
+            print(f"Error during summarization: {e}")
+            print("Skipping summarization and moving to the next step.")
+            summary = ""
+
         print("\nRaw Summary:\n", summary)
 
         # Post-process the summary
