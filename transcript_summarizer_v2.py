@@ -236,6 +236,7 @@ def summarize_text(processed_text, summarizer, tokenizer, max_tokens=1024, defau
                     do_sample=False
                 )
                 final_summaries.append(summary[0]['summary_text'])
+            # TODO: Check if there is more robust way to handle errors when chunking --> then also apply to batch_text_summarizer.py for consistency
             except Exception as e:
                 print(f"Error summarizing combined chunk {i+1}: {e}")
                 print("Skipping this chunk and moving to the next one.")
