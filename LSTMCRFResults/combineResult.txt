@@ -1,0 +1,862 @@
+Text: Amy Mullins says she never looked up the word disabled to see what she'd find
+Predictions: ['O', 'O', 'O', 'O', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'O', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: She says she was born into a world that perceived someone like me to have nothing positive going for them
+Predictions: ['O', 'O', 'O', 'O', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Her childhood doctor at the AI DuPont Institute in Wilmington, Delaware, opened doors for her, she says
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'O', 'O', 'O', 'O', 'O', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "I have to wonder to what extent his vision and his declaration of me as a strong and powerful little girl shaped my own view of myself as an inherently strong, powerful and athletic person," she writes
+Predictions: ['I-PERSON', 'I-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'O', 'I-LOCATION', 'I-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The human ability to adapt is our greatest asset
+Predictions: ['I-ORG', 'O', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Adversity isn't an obstacle that we need to get around in order to resume living our life
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'O', 'O', 'O', 'O', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: The only real and consistent disability I've had to confront is the world ever thinking that I could be described by those definitions
+Predictions: ['B-ORG', 'I-PERSON', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We have to make sure that we don't put the first brick in a wall
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That will disable someone
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: By not treating the wholeness of a person, by not acknowledging their potency, we are creating another ill on top of whatever natural struggle they might have
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Amy Mullins was born without the fibula bones and had feet turned in and a few toes in this foot and few toes on that
+Predictions: ['O', 'I-PERSON', 'O', 'O', 'O', 'I-ORG', 'O', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Anthropologists tell us that the one thing we, as humans, have always required of our community members is to be of use
+Predictions: ['B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'O', 'I-LOCATION', 'O', 'O', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: If we can change this paradigm from one of achieving normalcy to one of possibility or potency, to be even a little bit more dangerous, we can release the power of many more children and invite them to engage their rare and valuable abilities with the community
+Predictions: ['I-PERSON', 'I-LOCATION', 'I-PERSON', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'I-PERSON', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The only true disability is a crushed spirit
+Predictions: ['I-ORG', 'I-PERSON', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: A spirit that's been crushed doesn't have hope, It doesn't see beauty, It no longer fosters natural childlike curiosity and our innate ability to imagine
+Predictions: ['B-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: If, instead, we can bolster a human spirit to keep hope, to see beauty in themselves and others, to be curious and imaginative, then we are truly using our power
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'I-PERSON', 'I-ORG', 'I-LOCATION', 'O', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'O', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: When a spirit has those qualities, we are able to create new realities and new ways of being
+Predictions: ['O', 'O', 'I-LOCATION', 'O', 'O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'O', 'I-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I'd to leave you with a poem by a 14th century Persian poet named Hafiz
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The world has 6
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: 8 billion people and is headed up to about 9
+Predictions: ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: 3 billion
+Predictions: ['B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: We put out a lot of carbon dioxide every year-over 26 billion tons
+Predictions: ['I-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: For each American, it's about 20 tons
+Predictions: ['O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: It's less than one ton to an average-about five tons for everyone on the planet
+Predictions: ['B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We have to make changes that will bring that down to zero
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We've got to go from rapidly rising to falling and falling all the way to 0
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That's back from a high school algebra
+Predictions: ['B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We probably could cut back and use less every year, but every year that will more than double the average
+Predictions: ['I-LOCATION', 'I-LOCATION', 'O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We have something that's not going up through various inventions and new ways of doing lighting
+Predictions: ['B-ORG', 'B-ORG', 'B-PERSON', 'I-ORG', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Almost every way we make electricity today, except for the emerging renewables in nuclear, puts out CO2, and we're going to have to do it
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-ORG', 'O', 'I-ORG', 'O', 'O', 'I-ORG', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We need solutions, either one or several, that have unbelievable scale and unbelievable reliability
+Predictions: ['B-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-ORG', 'I-PERSON', 'B-PERSON', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: And although there are many directions or people seeking, I really only see five that can achieve the big numbers
+Predictions: ['I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: I've left out tied geothermal fusion biofuels
+Predictions: ['B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Those may make some contribution And if they can do better than I expect, much the better
+Predictions: ['B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Renewable energy sources don't require fuel, but they have some disadvantages
+Predictions: ['B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The density of energy gathers in these technologies is dramatically less than a power plant
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-PERSON', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We need a breakthrough here, something that's going to be a factor of 100 better than the approaches we have now
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-LOCATION', 'B-PERSON', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'O', 'O', 'B-LOCATION', 'O', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The idea of a tarot power is that instead of burning the part of uranium-the 1% which is the U235, we decided let's burn the 99%, the U238
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: It's not impossible, but it's not a very easy thing
+Predictions: ['I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-ORG', 'O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: We should go through these efficiency measures to start getting reductions
+Predictions: ['B-ORG', 'B-PERSON', 'I-LOCATION', 'B-PERSON', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The less we emit, the less that sum will be of CO2, and therefore the less the temperature
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: The other great is: are we deploying this zero-emission technology? Have we deployed it in all the develop countries? And we're in the process of getting it elsewhere
+Predictions: ['I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That's a key element of making that report card
+Predictions: ['B-ORG', 'B-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: To get to that 80%, the developed countries, including countries, China, will have had to switch their electricity generation all together
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'O', 'O', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We have 20 years to invent and then 20 year to deploy
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: And tarot power, if things go, which is wishing for a lot, could easily meet that
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: There are fortunately now dozens of companies-we need to be hundreds-who, likewise, if their science goes, can compete for this, and it's best if multiple succeed, because then you could use a mix of these things
+Predictions: ['B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'I-ORG', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The main problem you have here it's AIDS, that you make the mistake now, and you pay for it a lot later
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'O', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That has to do with a gain later and a somewhat uncertain painting
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Lomborg: All of us here could pay five times as much for our energy and not change our lifestyle
+Predictions: ['B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-PERSON', 'B-PERSON', 'I-ORG', 'O', 'O', 'I-ORG', 'O', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The disaster is for that 2 billion
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Now is: why isn't the R&D getting more discussed?
+"It seems natural
+Predictions: ['O', 'O', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Later that day I was driving around this property with Miguel and I asked him
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I said for a place,"
+CNN's John Sutter fell in love with a fish farm in southern Spain
+Predictions: ['B-ORG', 'O', 'O', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The fish was farm raised to the supposed highest standards of sustainability
+Predictions: ['I-ORG', 'I-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Sutter wanted to support the company, but the fish tasted like chicken to him
+Predictions: ['I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The company's PR man said there's just too much chicken in the world, Sutter says
+Predictions: ['I-ORG', 'B-ORG', 'B-PERSON', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: 'I fell out of love with this fish, Not because I'm some self-righteous goody-two-shoes foodie,' Sutter writes, 'because I swear to God, after that conversation, the fish taste chicken' In 1982, a Spanish company with an environmental conscience purchased the land
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'O', 'B-LOCATION', 'B-PERSON', 'O', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: They reversed the flow of water
+Predictions: ['B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Instead of pushing water out, they used the channels to pull water back in
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The farm's incredible
+Predictions: ['I-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: You've never seen anything
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is an ecological network
+Predictions: ['O', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The flamingos eat the shrimp, the shrimp eat the phytoplankton, the pink of the belly, the better the system
+Predictions: ['I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: A farm that measures its success on the health of its animals is a bird sanctuary
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: CNN's John Sutter asks: How are we going to feed the world? Sutter: We need a radically new conception of agriculture, one in which the food tastes good
+Predictions: ['O', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'O', 'I-ORG', 'O', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: He says the model for the agribusiness model is ancient, tired, and high on capital
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Sutter says instead of just extensively intensively farming, we need to use land and water more extensively instead of relying on expensive machines and machines to produce food
+Predictions: ['O', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The future of our food system is in the hands of farmers, he says
+Predictions: ['I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I'm okay with that, Because if that's the future of good food, it's going to be delicious, Thank you
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The word happiness is just not a useful word anymore because we apply to too many different things
+Predictions: ['I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We can't think about any circumstance that effects will be without distorting its importance
+Predictions: ['B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: There are two very different entities: the experiencing self and the remembering self, and getting confused between them is part of the mess about the notion of happiness
+Predictions: ['I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'O', 'O', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Our experiences is a story, from our experiences are a story
+Predictions: ['O', 'O', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We don't only tell stories when we set out to tell stories
+Predictions: ['B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Our memory tells our stories
+Predictions: ['I-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That is what we get to keep from
+Predictions: ['B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: For us, we have the remembering self and the experiencing self, and they're really quite distinct
+Predictions: ['O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The biggest difference between them is in the handling of time
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Time is the critical variable that distinguishes a remembering self from our experiencing
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We don't choose between experiences, We choose between memories of experience
+Predictions: ['B-ORG', 'B-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION', 'O']
+--------------------------------------------------------------------------------
+Text: We think about future as anticipated memories, And you can look at this as a tyranny of the remembering Self
+Predictions: ['B-ORG', 'O', 'B-ORG', 'O', 'I-ORG', 'O', 'O', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: There seems to be a discrepancy- I may be a bit in extreme in how little appetite I have for memories
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-PERSON', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'O', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: There are really two concepts of happiness that we can apply, one per cell, And you can ask how happy is the
+Predictions: ['I-LOCATION', 'B-PERSON', 'O', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'O', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Experiencing self? And then you would ask how Happy are the moments in the experiencing Self's life? And they're all
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'O', 'I-LOCATION', 'O', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Very different notions
+Predictions: ['B-PERSON', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Anyone who doesn't distinguish those notions is going to mess up the study of happiness, and I belong to a crowd of students of -being who've been messing up the studies of happiness for a long time
+Predictions: ['O', 'B-ORG', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'O', 'O', 'I-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: If you want to maximize the happiness of the two selves, you are going to end up doing very different things
+Predictions: ['B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The more money you are, the more satisfied you are
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That does not hold for emotions
+Predictions: ['B-ORG', 'O', 'I-ORG', 'O', 'O', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Money does not buy you experiential happiness, but lack of money certainly buys you misery
+Predictions: ['O', 'O', 'O', 'B-PERSON', 'B-PERSON', 'O', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: How to enhance happiness goes very different ways depending on how you think and whether you think of the remembering self or you think about the experiencing self
+Predictions: ['O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'I-ORG', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: This is going to influence policy in years to come
+Predictions: ['O', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: In the United States, efforts are being made to measure the experience happiness of the population
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The placebo effect is when something fake is believed in enough by somebody that it becomes something real
+Predictions: ['I-ORG', 'B-PERSON', 'O', 'I-LOCATION', 'O', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: A colored capsule that's yellow on one end and one end on the other is better than a white capsule
+Predictions: ['I-ORG', 'B-LOCATION', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: One pill twice a day is not as good as three pills, but I don't remember the statistic
+Predictions: ['B-ORG', 'O', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Dosage has something to do with this
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: One of these things has any place, but a blue pill is not really Osgood as a white pill
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'B-ORG', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: That's not where it stops, though
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'O', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: In a study, researchers found that when you want reality, you go to the needle
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is a seven-inch hat pin
+Predictions: ['O', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: It's very, very sharp, and I'm going to just sterilize it a tiny bit
+Predictions: ['B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: If you're getting queasy, look away
+Predictions: ['I-PERSON', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Don't look at the thing
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: People in the back are people on video years from now, watching us say, yeah, that looks neat and some effect there, But if it were real, he would be bleeding
+Predictions: ['B-LOCATION', 'O', 'I-ORG', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'O', 'O', 'I-PERSON', 'I-LOCATION', 'I-PERSON', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: With Pivot, you can drill into a decade, You could drill in to a particular year, you could jump right into a specific issue
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: You get the idea that when you navigate over information this way-going narrow, broader, backing in, backing out-you're not searching, you are not browsing, You're doing something
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: That's a little bit different, It's in between, and we think it changes the way information can be used
+Predictions: ['B-PERSON', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We're navigating the web for the first time as if it's a web, not from page to page
+Predictions: ['B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: CNN's John Sutter looks at how data can be used to uncover hidden patterns
+Predictions: ['O', 'B-PERSON', 'O', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Sutter: "Instead of dealing just with information, we can tease out knowledge" "If we get the knowledge, maybe there's wisdom to be found with that," he says
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: In the mid-90s, he started a company with Stan Winston, who was the premier makeup and creature designer at that time
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: After the success of Titanic
+Predictions: ['O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: He said, OK, I'm going to go be a full-time explorer
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We started planning these expeditions, and we wound up going to Bismarck with robotic vehicles
+Predictions: ['I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: With robotic vehicles, we went back to the wreck of the Titanic
+Predictions: ['I-LOCATION', 'B-LOCATION', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We had created that spool of optic spooled and the idea was to go in and do an interior survey of that ship
+Predictions: ['B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "I felt I was physically present inside the shipwreck of Titanic, and it was the most surreal DJ VU experience I've ever had" "I learn a lot about science, but I also learned a little bit of a glimpse to what might be happening some decades out, as we start to have cyborg bodies for exploration or for other means" "You're doing it for the task itself, For the challenge- and the ocean is the most challenging environment there is- for the thrill of discovery and for that strange bond that happens" "It completely changed how I do movies
+Predictions: ['B-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'B-ORG', 'O', 'B-ORG', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-PERSON', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'B-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'I-LOCATION', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'B-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Tremendously exciting, tremendously challenging- and we became a family over a four and a half year period," he says
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-PERSON', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-PERSON', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "I have young filmmakers come up to me and say: give me some advice for doing this," he adds
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "And I say: don't put limitations on yourself
+Predictions: ['I-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Other people will do that for you
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'O', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Don't do it to yourself"
+We spend three billion hours a week playing online games
+Predictions: ['B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: I believe that if we want to survive the next century on this planet, we need to increase that total dramatically
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I've calculated the total we need at 21 billion hours of gameplay every week
+Predictions: ['B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'I-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is what I call to 'm not good at life face, And this is me making it, Can it? Yes, good, This me making the I'm Not Good at Life face
+Predictions: ['O', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-ORG', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: That's what I wanted to study when I was a graduate student
+Predictions: ['I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'O', 'O', 'O', 'O', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: How we can take those feelings from games and apply them to real-world life
+Predictions: ['O', 'O', 'I-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The average young person today in a country with a strong gamer culture will have spent 10,000 hours playing online games by the age of 21
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-ORG', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'O', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: By spending all this time playing games, we're changing what we are capable of as human beings
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-ORG', 'O', 'O', 'B-ORG', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'O', 'O', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We're evolving to be more collaborative, to be a more collaborative and hardy species
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The game industry is developing consoles that are low energy and that work with the wireless networks instead of broadband
+Predictions: ['I-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Bring us up to 1
+Predictions: ['B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: 5 billion gamers in the next decade
+Predictions: ['O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Gamers always believe that an epic win is possible and that it's always worth trying and trying
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The average World of Warcraft gamer plays for 22 hours a week- a half-time job
+Predictions: ['I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'O', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: They get better feedback and feel more rewarded in games than they do in real live
+Predictions: ['I-LOCATION', 'O', 'O', 'O', 'O', 'I-PERSON', 'B-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-PERSON', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We have to start making the real-world work more a game
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I take my inspiration from something that happened 2,500 years ago
+Predictions: ['B-ORG', 'B-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'O', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: These are ancient dice made out of sheep's knuckles
+Predictions: ['O', 'O', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Right before we had awesome game controllers, We had sheep knuckles- And these represent the first game equipment designed by human beings
+Predictions: ['B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: The Institute for the Future uses games to help people solve real-world problems
+Predictions: ['B-ORG', 'B-ORG', 'O', 'I-ORG', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Games like World Without Oil and Super Stocked at the Future aim to give people the means to create epic wins in their own futures
+Predictions: ['B-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-PERSON', 'I-PERSON', 'B-ORG', 'I-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We're using Games to get away from everything that's broken in the real environment, Everything that's not satisfying about real life, And we're getting what we need from games
+Predictions: ['I-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We've been playing Warcraft since 1994, that was the first real-time strategy game from the World of Warcraft series
+Predictions: ['B-ORG', 'B-LOCATION', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That was 16 years ago
+Predictions: ['B-ORG', 'O', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: I say we are ready for our own Epic game Now
+Predictions: ['B-ORG', 'I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: 8,000 people play that game for eight weeks
+Predictions: ['O', 'O', 'O', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: That came up with 500 insanely creative solutions
+Predictions: ['B-LOCATION', 'O', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The last game we're launching is a game done with the World Bank Institute
+Predictions: ['I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: If you complete the game, you will be certified as a social innovator Class of 2010
+Predictions: ['I-PERSON', 'I-ORG', 'I-PERSON', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Working with universities all over Sub-Saharan Africa, and we are inviting them to learn social innovation skills
+Predictions: ['B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: To play games at matter to survive on this planet for another century, I say: let the world changing games begin
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: "I'm convinced that there's some pull to nostalgia, to wishful thinking, and I understand that I'm not part of that crowd" "I want to get in the machine and I want to go forward
+Predictions: ['B-ORG', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: This is the greatest time there's ever been on the planet, By any measure that you wish to choose" "We've used our imagination to thoroughly trash this globe
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Potable water, arable land, rain, forest oil, gas-They're going away, And they are going away soon" CNN's John Sutter talks about the dangers of vaccines and genetically engineered food
+Predictions: ['I-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'I-LOCATION', 'O', 'O', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Sutter: We're at a point in this world where we don't have the same relationship to progress that we used to
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: We've lost faith in institutions, in authority and sometimes in science itself, and there's no reason we shouldn't have, Sutter says
+Predictions: ['B-ORG', 'I-LOCATION', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'I-LOCATION', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The U
+Predictions: ['I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: S
+Predictions: ['B-LOCATION']
+--------------------------------------------------------------------------------
+Text: is one of the few countries in the world where the vaccine rate for measles is going down, and we should be ashamed of ourselves, he says
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: In the next 50 years, we're going to have to grow 70% more food than we do right now- 70%
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-ORG', 'I-PERSON', 'B-ORG', 'B-LOCATION', 'B-PERSON', 'I-PERSON', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: This is investment in Africa over the last 30 years
+Predictions: ['B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: And why Genetically engineered food? We don't want to encourage people to eat that rotten stuff
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: This isn't about rice crispier
+Predictions: ['O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: This is about keeping people alive
+Predictions: ['O', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: And it's about time we started to understand what that meant, because something, if we continue to act the way we're acting, we are guilty of something that I'm guilty of: High-tech colonialism
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-ORG', 'B-ORG', 'O', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: It's selfish, it's ugly, It's beneath us, and we really have to stop it
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'O', 'B-ORG', 'O', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Nathaniel Ayers was a Julliard trained double bassist whose promising career was cut short by a tragic affliction with paranoid schizophrenia
+Predictions: ['O', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: 30 years later he was living homeless on the streets of Skid Row in downtown Los Angeles
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Ayers'' manic rage was transformed into understanding, into understanding and acquired curiosity and grace
+Predictions: ['O', 'O', 'B-PERSON', 'O', 'I-LOCATION', 'I-ORG', 'I-PERSON', 'I-ORG', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Music is an escape from his tormented state, and I understood that this was the very essence of art
+Predictions: ['I-PERSON', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: This is the very reason why we made music: we take something that exists within all of us, through our creativity, we're able to shape those emotions into reality
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'B-ORG', 'O', 'I-LOCATION', 'B-ORG', 'I-LOCATION', 'B-ORG', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "I will always make music with Nathaniel, whether we're at Walt Disney concert hall or on Skid Row, because he reminds me why I
+The Arctic Ice cap is, in a sense, of the beating heart of the global climate system
+Predictions: ['B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'I-PERSON', 'O', 'I-LOCATION', 'B-LOCATION', 'O', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'O', 'O', 'O', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: It expands in winter and contracts in summer
+Predictions: ['B-LOCATION', 'O', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: In the last five years, we've added 70 million tons of CO2 every 24 hours, 25 million tons every day to the oceans
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-ORG', 'B-ORG', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The biggest single cause of global warming, along with deforestation, which is 20% of it, is the burning of fossil fuels
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Oil is a problem and coal is the most serious problem
+Predictions: ['I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The coal industry and the oil industry spent a quarter of a billion dollars in the last calendar year promoting clean coal
+Predictions: ['I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: If you want to go far, go together
+Predictions: ['I-PERSON', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We need to gopher quickly
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Thank you very much
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: The way to maximize freedom is to maximize choice
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The more choice people have, the more freedom they have
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: We can construct six and a half million different stereo systems out of the components that are on offer in one store
+Predictions: ['I-LOCATION', 'I-PERSON', 'B-PERSON', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The same explosion of choice is true Healthcare
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: It is no longer the case that you go to the doctor and the doctor tells you what to do
+Predictions: ['B-LOCATION', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We don't inherit an identity, we get to invent it
+Predictions: ['B-ORG', 'B-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The slide to this slide is meant to indicate that our identity is now a matter of choice
+Predictions: ['I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Every day when you wake up in the morning, you have to decide what person you want to be
+Predictions: ['I-LOCATION', 'B-LOCATION', 'O', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We are blessed, as Carl was pointing out, with the technology that enables us to work Every minute of every day from any place on the planet except the Randolph hotel
+Predictions: ['I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'O', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: With many options to choose from, people find it very difficult to choose at all
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-LOCATION', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: And it makes the world look this: Paralysis is a consequence of having too many choices: You really want to get the right decision right if it's for all eternity
+Predictions: ['I-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: When there are lots of alternatives to consider, it is easy to imagine that you could have made a different choice that would have been better
+Predictions: ['O', 'I-LOCATION', 'B-PERSON', 'O', 'O', 'O', 'O', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'I-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Dan Gilbert made a big point this morning of talking about how much the way in which we value things depends on what we compare them to
+Predictions: ['B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The more options there are, the easier it is to regret anything at all that is disappointing about the option that you chose
+Predictions: ['I-ORG', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: And the more attractive features of these options are going to be reflected by us as opportunity costs
+Predictions: ['B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'I-PERSON', 'O', 'O', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The best you can ever hope for is that the stuff that is as good as you expect it to be
+Predictions: ['B-LOCATION', 'B-PERSON', 'I-ORG', 'B-PERSON', 'O', 'B-PERSON', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The secret to happiness-this is what you all came for
+Predictions: ['I-ORG', 'B-ORG', 'O', 'O', 'O', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The secrets to happiness is low expectations
+Predictions: ['I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Clinical depression has exploded in the industrial world in the last generation
+Predictions: ['B-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: What enables all of this choice in industrial societies is material affluence
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Income redistribution will make everyone better off, not just poor people, because of how all this excess choice plays us
+Predictions: ['B-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: If some of what enables people to make all the choices we make, we're shifted to societies in which people have too few options
+Predictions: ['I-PERSON', 'B-LOCATION', 'O', 'B-PERSON', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is what economists call a Pareto Improving Move
+Predictions: ['O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Microsoft's new technology, See dragon, lets you interact with vast amounts of visual data
+Predictions: ['I-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'O', 'O', 'O', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: It's also a very flexible architecture
+Predictions: ['B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We're looking at many, many gigabytes of digital photos here and seamlessly and continuously zooming and panning through the thing, rearranging it any way we want
+Predictions: ['B-ORG', 'I-LOCATION', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: It doesn't matter how much
+Predictions: ['B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The only thing that ought to limit the performance of a system-this one-is the number of pixels on your screen at any given moment
+Predictions: ['I-ORG', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We hope that this means no more pop-ups and other rubbish that should be necessary
+Predictions: ['B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is now taking data from everybody, from the entire collective memory of visually of what the Earth looks, and link all of that together
+Predictions: ['O', 'I-ORG', 'O', 'O', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: All of those photos become linked together, and they make something emergent that's greater than the sum of the parts
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: You have a model that emerges of the entire Earth
+Predictions: ['B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Think of this as the long tail to Stephen Lawler's virtual Earth work
+Predictions: ['B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: That grows in complexity as people use it and whose benefits become greater to the users as they use it
+Predictions: ['B-PERSON', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The LHC is the largest scientific experiment ever attempted: 27 kilometers in circumference
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Its job is to recreate the conditions that were present less than a billionth of a second after the universe began
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: On the 10th of September last year we turned the machine on for the first time and this picture was taken by Atlas
+Predictions: ['I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: A week later we had a problem with the machine related to these bits of wire here, these gold wires
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Those wires carry 13,000 amps when the machine's working at full power, when the machines work in full power
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-LOCATION', 'O', 'I-ORG', 'I-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We've been digitizing biology, and now we're trying to go from that digital code into a new phase of biology with designing and synthesizing life
+Predictions: ['B-ORG', 'B-LOCATION', 'O', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We started down the road of: can we synthesize chromosome? Can chemistry permit making these really large molecules where we've never been before? And if we do, can we boot up a chromosome? A chromosome, by the way, is just a piece of inert chemical material
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'O', 'O', 'O', 'I-LOCATION', 'O', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Our pace of digitizing life has been increasing at an exponential pace
+Predictions: ['I-ORG', 'I-ORG', 'O', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Our ability to write the genetic code has been moved
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Scientists have created a way to put together large pieces of DNA
+Predictions: ['I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The process is called genomic alchemy
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: It could lead to a new version of the Cambrian explosion, where there's a massive explosion of speciation where there are thousands of new traits added in a second to a species
+Predictions: ['I-LOCATION', 'B-PERSON', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'O', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: This is building on three and a half billion years of evolution
+Predictions: ['I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: We're about to go from six to nine billion years, over the next 40 years
+Predictions: ['B-ORG', 'O', 'B-ORG', 'I-ORG', 'O', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We are trying to get to the point of automation
+Predictions: ['I-LOCATION', 'O', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: I am absolutely certain that life can exist in outer space
+Predictions: ['B-ORG', 'B-ORG', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We use over five billion tons of coal, 30 billion plus barrels of oil, That's 100 million barrels a day
+Predictions: ['B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: When we try to think of biological processes or any process to replace that, it's going to be a huge challenge
+Predictions: ['O', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: We now have techniques, because of these rapid methods of synthesis, to do what we're calling combinatorial genomics
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We think that we might be able to increase what the basic question is of what is life
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: Our goal is just to make sure that we have a chance to survive long enough to maybe do that
+Predictions: ['I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: A liftable is an interactive computer the size of a cookie
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: They're able to be moved around by hand
+Predictions: ['B-ORG', 'O', 'O', 'O', 'I-PERSON', 'B-LOCATION', 'O', 'O', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: They can sense each other, they can sense their motion
+Predictions: ['B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'O', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Furthermore, they have a screen and a, and they have a wireless radio
+Predictions: ['I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Most importantly, they're physical: the blocks
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: You can move them just by reaching out and grasping, And the giftables are an example of a new ecosystem of tools for manipulating digital information
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'O', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: As these tools become more physical, more aware of their motion, aware of each other and aware of the nuance of how we move them, we can start to explore some new and fun interaction styles
+Predictions: ['I-PERSON', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'O', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'I-PERSON', 'B-PERSON', 'B-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: "My passion is for making new human computer interfaces that are a better match to the ways our brains and bodies work," he says
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-PERSON', 'I-LOCATION', 'I-ORG', 'I-PERSON', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: "We are on the cusp of this new generation of tools for interacting with digital media that are going to bring information into our world on our terms"
+Writers have a reputation for being enormously mentally unstable, he says
+Predictions: ['I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: He asks: Is it rational that anybody should be expected to be afraid of the work that they feel they were put on this earth to do? 'I'm afraid of all those things, And I always have been, and I am afraid of many, many more things besides that people can't even guess at,' he writes
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: 'And it's exceedingly likely that anything I write from this point forward is going to be judged by the world after the freakish success of my last book' The writer says he has to create a safe distance between himself and his work
+Predictions: ['I-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'O', 'O', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: He has been looking across time for models for how to do that
+Predictions: ['O', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'I-PERSON', 'O', 'O', 'I-PERSON', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Ancient Greece and Ancient Rome believed that creativity came from a divine attendant spirit
+Predictions: ['I-ORG', 'I-ORG', 'B-PERSON', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The Romans had the same idea, but they called that disembodied creative spirit a genius, which is great because the Romans did not think that a genius was a particularly clever individual
+Predictions: ['I-ORG', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: They believed that Genius was the magical divine entity who was believed to literally live in the walls of an artist studio
+Predictions: ['B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'O', 'I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'B-PERSON', 'O', 'O', 'O', 'O', 'I-ORG', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Bob Dylan talks about the capriciousness of the creative process
+Predictions: ['B-LOCATION', 'O', 'O', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: He says the best example of how to deal with it is the musician Tom Watt
+Predictions: ['O', 'B-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'O', 'O', 'B-ORG', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Dylan: "I'm not the pipeline, I'm a mule and the way that I have to work is that I get up at the same time every day and sweat and labor and barrel through it really awkwardly" "Even I, in my mulishness, even I have brushed up against that thing at times, And I would imagine that a lot of you have to" Leonard Cohen: I fell into one of those pits of despair that we all fall into when we're working on something, and it's not coming, and you start to think this is going to be a disaster
+Predictions: ['I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-PERSON', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'O', 'B-PERSON', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'O', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: But then I remembered Tom talking to the open air and I tried it
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: And his whole work process changed after that, Not the work
+Predictions: ['B-PERSON', 'B-PERSON', 'B-PERSON', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The work was still oftentimes as dark as ever, But the process and the heavy anxiety around it was released when he took the genie out of him
+Predictions: ['I-ORG', 'B-ORG', 'O', 'O', 'O', 'I-ORG', 'B-LOCATION', 'I-PERSON', 'O', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'O', 'O', 'B-ORG', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'I-ORG', 'B-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Don't be afraid, Don't be daunted, Just do your job
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: If the divine cock-eyed genius assigned to your case decides to let some wonderment be glimpsed for just one moment through your efforts, then Olay
+Predictions: ['I-PERSON', 'I-ORG', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'I-LOCATION', 'I-LOCATION', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'O', 'O', 'B-ORG', 'O', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: I believe this, and I feel we must teach it
+Predictions: ['B-ORG', 'B-ORG', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Anthropology is the idea that the world in which we live in does not exist in some absolute sense, but it's just one model of reality
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'O', 'O', 'O', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: When each of you in this room were born, there were 6,000 languages spoken on the planet
+Predictions: ['O', 'I-ORG', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Of those languages, as we sit here today in Monterey, fully half are no longer being whispered into the ears of children
+Predictions: ['B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-PERSON', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: And I know there's some who say: Wouldn't it be better, if all just spoke one language? Virus is not a black magic cult
+Predictions: ['I-PERSON', 'I-PERSON', 'O', 'O', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'O', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'O', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: On the contrary, it's a complex metaphysical worldview
+Predictions: ['B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: VDU is simply the distillation of these very profound religious ideas that came over during the tragic diaspora of the slavery era
+Predictions: ['I-LOCATION', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-PERSON', 'B-ORG', 'B-PERSON', 'B-PERSON', 'B-ORG', 'I-ORG', 'B-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: The spirits can be invoked from beneath the great water, responding to the rhythm of the dance, to momentarily displace the soul of the living
+Predictions: ['I-ORG', 'I-ORG', 'O', 'O', 'O', 'O', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: We dance in the temple and become God
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: And because you are possessed, you are taken by the Spirit
+Predictions: ['B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: How can you be harmed? CNN's John Exterior travels to the Amazon to meet indigenous people
+Predictions: ['O', 'I-PERSON', 'O', 'I-PERSON', 'O', 'O', 'B-PERSON', 'O', 'O', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: He takes Ayahuasca, the most powerful psychoactive preparation of the shaman's repertoire
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: Defter: Indigenous people have forged a traditional mystique of the earth that is based not on an idea of being self-consciously close to it, but on a far subtler intuition: The idea that the earth itself can only exist because it is breathing the bean by human consciousness
+Predictions: ['B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'O', 'B-LOCATION', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG']
+--------------------------------------------------------------------------------
+Text: He also meets the YanomamÃ¶, a tribe who believe that the forest is a boat of a spirit that will direct his or her destiny
+Predictions: ['I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-ORG', 'B-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: The 20th century is not going to be remembered for its wars or its technological innovations
+Predictions: ['I-ORG', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'O', 'I-LOCATION', 'O', 'O', 'B-LOCATION', 'B-LOCATION', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: It will be remembered as the era in which we stood by and either actively endorsed or passively accepted the massive destruction of both biological and cultural diversity on the planet
+Predictions: ['B-LOCATION', 'I-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-LOCATION', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-LOCATION', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: It's not change or technology that threatens the integrity of the atmosphere
+Predictions: ['B-LOCATION', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-ORG', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Furthermore, it is power, the crude face of domination
+Predictions: ['I-ORG', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: These are dynamic, living peoples being driven out of existence by identifiable forces that are beyond their capacity to adapt to
+Predictions: ['I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-PERSON', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: And you cannot understand the pain of Tibet until you move through it at the ground level
+Predictions: ['B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: National Geographic editor-in-chief: Do we want a monochromatic world of monotony, or do we want to embrace a polychromatic one of diversity? John Sutter: It's humbling to remember that our species has perhaps been around for six
+Predictions: ['I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-LOCATION', 'B-ORG', 'B-ORG', 'I-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'O', 'O', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: Millennia
+Predictions: ['B-ORG']
+--------------------------------------------------------------------------------
+Text: He says we don't have all the answers for all the challenges that will confront us in the ensuing millennia
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'O', 'B-LOCATION', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG']
+--------------------------------------------------------------------------------
+Text: National Geographic: We think that polemics are not persuasive, but we believe that storytelling can change the world
+Predictions: ['B-ORG', 'B-ORG', 'B-ORG', 'B-LOCATION', 'I-ORG', 'I-LOCATION', 'O', 'I-ORG', 'I-PERSON', 'O', 'I-ORG', 'I-ORG', 'I-ORG', 'I-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION']
+--------------------------------------------------------------------------------
+Text: "We're going to take our audience to places of such cultural wonder that they cannot help but come away dazzled by what they have seen," says the magazine's editor
+Predictions: ['I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-LOCATION', 'I-ORG', 'I-ORG', 'B-PERSON', 'B-PERSON', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'B-LOCATION', 'I-PERSON', 'I-LOCATION', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'I-PERSON', 'B-PERSON', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'B-ORG', 'I-ORG', 'B-ORG', 'I-ORG', 'I-ORG', 'I-ORG', 'B-ORG']
