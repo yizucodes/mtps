@@ -1,0 +1,45 @@
+Here Are some key points from the evaluation of summarized test texts that could be useful:
+
+OVERALL PERFORMANCE:
+- The model achieves an average F1 Score of 0.8145, indicating good semantic alignment 
+between summaries and transcriptions.
+
+- Precision (0.8311) is higher than Recall (0.7988), suggesting the model generates 
+relevant content but may omit some key details.
+
+- The average Compression Ratio is 16.7157, indicating the summaries are approximately 
+17 times shorter than the original transcriptions, reflecting strong conciseness.
+
+HIGH-PERFORMING FILES:
+
+transcription_test_DanBarber_2010_S103_6s:
+    - F1 Score: 0.8633 (highest in the set).
+    - Compression Ratio: 2.9130 (lowest in the set).
+    - The summary is nearly as detailed as the original text, likely due to the brevity of the transcription.
+    
+transcription_test_GaryFlake_345s:
+    - F1 Score: 0.8237.
+    - Compression Ratio: 17.3488 (moderate), indicating a concise summary with high semantic retention.
+
+
+LOW-PERFORMING FILES:
+
+transcription_test_JamesCameron_982s:
+    - F1 Score: 0.7882 (lowest in the set).
+    - Compression Ratio: 24.2705 (highest in the set).
+    - The high compression ratio suggests over-condensation, likely omitting key details, reflected in the 
+    lower recall (0.7754).
+
+
+GENERAL OBSERVATIONS:
+
+Compression Ratio and Recall Correlation:
+    - High compression ratios (e.g., JamesCameron_982s, 24.2705) tend to correlate with lower recall, as key details are lost during summarization.
+        
+    - Files with moderate compression ratios (e.g., GaryFlake_345s, 17.3488) balance recall and conciseness well.
+    
+Short Transcriptions Perform Better:
+    - Shorter transcriptions like DanBarber_2010_S103_6s achieve better F1 scores (0.8633), as the summaries retain more details.
+    
+Balanced Compression Ratios (~15–18):
+    - Files like transcription_test_AimeeMullins_1249s (15.8770) and transcription_test_JaneMcGonigal_1168s (16.0565) demonstrate good balance between conciseness and semantic retention.
