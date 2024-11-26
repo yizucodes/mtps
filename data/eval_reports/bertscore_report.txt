@@ -4,56 +4,67 @@ File: transcription_test_MichaelSpecter_921s_summarized.txt
 Precision: 0.8281
 Recall: 0.8066
 F1 Score: 0.8172
+Compression Ratio: 22.5451
 --------------------------------------------------
 File: transcription_test_AimeeMullins_1249s_summarized.txt
 Precision: 0.8124
 Recall: 0.7897
 F1 Score: 0.8009
+Compression Ratio: 15.8770
 --------------------------------------------------
 File: transcription_test_DanielKahneman_1096s_summarized.txt
 Precision: 0.8290
 Recall: 0.8053
 F1 Score: 0.8170
+Compression Ratio: 16.3697
 --------------------------------------------------
 File: transcription_test_GaryFlake_345s_summarized.txt
 Precision: 0.8519
 Recall: 0.7973
 F1 Score: 0.8237
+Compression Ratio: 17.3488
 --------------------------------------------------
 File: transcription_test_EricMead_2009P_EricMead_459s_summarized.txt
 Precision: 0.8156
 Recall: 0.7824
 F1 Score: 0.7987
+Compression Ratio: 18.6848
 --------------------------------------------------
 File: transcription_test_JaneMcGonigal_1168s_summarized.txt
 Precision: 0.8275
 Recall: 0.8159
 F1 Score: 0.8217
+Compression Ratio: 16.0565
 --------------------------------------------------
 File: transcription_test_DanBarber_834s_summarized.txt
 Precision: 0.8179
 Recall: 0.7935
 F1 Score: 0.8055
+Compression Ratio: 18.1692
 --------------------------------------------------
 File: transcription_test_BillGates_1506s_summarized.txt
 Precision: 0.8108
 Recall: 0.8008
 F1 Score: 0.8058
+Compression Ratio: 17.2908
 --------------------------------------------------
 File: transcription_test_DanBarber_2010_S103_6s_summarized.txt
 Precision: 0.9013
 Recall: 0.8284
 F1 Score: 0.8633
+Compression Ratio: 2.9130
 --------------------------------------------------
 File: transcription_test_RobertGupta_340s_summarized.txt
 Precision: 0.8463
 Recall: 0.7912
 F1 Score: 0.8178
+Compression Ratio: 14.3468
 --------------------------------------------------
 File: transcription_test_JamesCameron_982s_summarized.txt
 Precision: 0.8015
 Recall: 0.7754
 F1 Score: 0.7882
+Compression Ratio: 24.2705
 --------------------------------------------------
 
 Summary Statistics:
@@ -61,3 +72,4 @@ Total files processed: 11
 Average Precision: 0.8311
 Average Recall: 0.7988
 Average F1 Score: 0.8145
+Average Compression Ratio: 16.7157
