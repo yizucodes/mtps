@@ -1,6 +1,9 @@
-Here Are some key points from the evaluation of summarized test texts that could be useful:
+Here Are some key points from the evaluation of summarized test texts that could be useful in our presentation:
+
+NOTE: The scope only pertains to files that start with transcription_test
 
 OVERALL PERFORMANCE:
+
 - The model achieves an average F1 Score of 0.8145, indicating good semantic alignment 
 between summaries and transcriptions.
 
@@ -9,6 +12,7 @@ relevant content but may omit some key details.
 
 - The average Compression Ratio is 16.7157, indicating the summaries are approximately 
 17 times shorter than the original transcriptions, reflecting strong conciseness.
+
 
 HIGH-PERFORMING FILES:
 
