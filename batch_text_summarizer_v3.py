@@ -367,7 +367,7 @@ def main():
         logger.info("✓ Models loaded successfully")
 
         # Process files
-        directory = "./data"  # Update this path
+        directory = "./data/transcripts"  # Update this path
         txt_files = glob.glob(os.path.join(directory, "*.txt"))
 
         if not txt_files:
