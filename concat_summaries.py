@@ -8,13 +8,13 @@ def concatenate_summaries_clean(directory):
     without headers or separators, suitable for LSTM training.
 
     Args:
-        directory (str): Base directory path that contains 'summarized_texts_v2'
+        directory (str): Base directory path that contains 'summarized_texts_v3'
 
     Returns:
         str: Path to the concatenated file
     """
     # Construct the path to summarized_texts_v2 directory
-    summary_dir = os.path.join(directory, 'summarized_texts_v2')
+    summary_dir = os.path.join(directory, 'summarized_texts_v3')
 
     # Check if directory exists
     if not os.path.exists(summary_dir):
@@ -29,7 +29,7 @@ def concatenate_summaries_clean(directory):
     print(f"\nFound {len(summary_files)} summary files to concatenate")
 
     # Create output file
-    output_path = os.path.join(summary_dir, 'combined_summaries.txt')
+    output_path = os.path.join(summary_dir, 'combined_summaries_v3.txt')
 
     # Concatenate files
     with open(output_path, 'w', encoding='utf-8') as outfile:
