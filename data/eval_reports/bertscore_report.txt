@@ -1,5 +1,17 @@
 === BERTScore Self-Similarity Report ===
 
+File: transcription_validation_Barry_Schwartz_1105s_summarized.txt
+Precision: 0.8161
+Recall: 0.7991
+F1 Score: 0.8075
+Compression Ratio: 16.4589
+--------------------------------------------------
+File: transcription_validation_Elizabeth_Gilbert_1120s_summarized.txt
+Precision: 0.8148
+Recall: 0.8011
+F1 Score: 0.8079
+Compression Ratio: 17.9012
+--------------------------------------------------
 File: transcription_test_MichaelSpecter_921s_summarized.txt
 Precision: 0.8281
 Recall: 0.8066
@@ -17,6 +29,12 @@ Precision: 0.8290
 Recall: 0.8053
 F1 Score: 0.8170
 Compression Ratio: 16.3697
+--------------------------------------------------
+File: transcription_validation_Craig_Venter_908s_summarized.txt
+Precision: 0.8567
+Recall: 0.8313
+F1 Score: 0.8438
+Compression Ratio: 17.0382
 --------------------------------------------------
 File: transcription_test_GaryFlake_345s_summarized.txt
 Precision: 0.8519
@@ -42,6 +60,18 @@ Recall: 0.7935
 F1 Score: 0.8055
 Compression Ratio: 18.1692
 --------------------------------------------------
+File: transcription_validation_Blaise_Agueray_Arcas_381s_summarized.txt
+Precision: 0.8628
+Recall: 0.8077
+F1 Score: 0.8343
+Compression Ratio: 15.3820
+--------------------------------------------------
+File: transcription_validation_Wade_Davis_1299s_summarized.txt
+Precision: 0.8105
+Recall: 0.7984
+F1 Score: 0.8044
+Compression Ratio: 17.7579
+--------------------------------------------------
 File: transcription_test_BillGates_1506s_summarized.txt
 Precision: 0.8108
 Recall: 0.8008
@@ -53,6 +83,12 @@ Precision: 0.9013
 Recall: 0.8284
 F1 Score: 0.8633
 Compression Ratio: 2.9130
+--------------------------------------------------
+File: transcription_validation_Al_Gore_291s_summarized.txt
+Precision: 0.8481
+Recall: 0.7899
+F1 Score: 0.8180
+Compression Ratio: 15.0672
 --------------------------------------------------
 File: transcription_test_RobertGupta_340s_summarized.txt
 Precision: 0.8463
@@ -66,10 +102,22 @@ Recall: 0.7754
 F1 Score: 0.7882
 Compression Ratio: 24.2705
 --------------------------------------------------
+File: transcription_validation_David_Merrill_336s_summarized.txt
+Precision: 0.8842
+Recall: 0.8206
+F1 Score: 0.8512
+Compression Ratio: 14.1481
+--------------------------------------------------
+File: transcription_validation_Brian_Cox_187s_summarized.txt
+Precision: 0.9126
+Recall: 0.8035
+F1 Score: 0.8546
+Compression Ratio: 12.7396
+--------------------------------------------------
 
 Summary Statistics:
-Total files processed: 11
-Average Precision: 0.8311
-Average Recall: 0.7988
-Average F1 Score: 0.8145
-Average Compression Ratio: 16.7157
+Total files processed: 19
+Average Precision: 0.8394
+Average Recall: 0.8020
+Average F1 Score: 0.8201
+Average Compression Ratio: 16.3350

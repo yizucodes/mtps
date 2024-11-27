@@ -70,7 +70,7 @@ def main():
 
         # Iterate over generated summary files in the base directory
         for file_name in os.listdir(base_dir):
-            if not (file_name.startswith("transcription_test_") and file_name.endswith("_summarized.txt")):
+            if not (file_name.startswith("transcription_") and file_name.endswith("_summarized.txt")):
                 continue
 
             # Construct file paths
