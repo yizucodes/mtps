@@ -1,0 +1,25 @@
+1.	Loss Function Fixes:
+•	Added mean operation to CRF loss to ensure scalar output
+•	Removed unnecessary mean operation on batch level
+•	Fixed handling of loss computation with proper tensor shapes
+2.	Gradient Management:
+•	Added gradient clipping with clip_value=5.0
+•	Modified training loop to handle gradients properly
+•	Added proper zero_grad() calls in optimizer step
+3.	Sequence Handling:
+•	Added DataCollatorWithPadding for dynamic sequence lengths
+•	Modified data loader to handle padded sequences properly
+•	Updated training loop to unpack three values (batch_X, batch_y, mask)
+4.	Model Architecture Updates:
+•	Kept custom LSTM implementation as required by project
+•	Maintained bidirectional processing
+•	Fixed tensor dimension handling in forward and predict methods
+5.	Training Process Improvements:
+•	Added proper model.eval() calls for validation
+•	Added proper device handling for tensors
+•	Added better loss tracking during training
+6.	Evaluation Capabilities:
+•	Added new evaluate_predictions function for quick evaluation
+•	Kept detailed evaluate_and_show_results_with_metrics for analysis
+•	Added proper sequence length handling in evaluation
+
