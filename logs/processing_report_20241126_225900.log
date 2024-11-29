@@ -1,0 +1,30 @@
+Text Summarization Processing Report
+========================================
+
+Processing Time: 2024-11-26 22:59:00.253313
+Total Files Processed: 19
+
+Successful Files:
+✓ transcription_test_GaryFlake_345s.txt
+✓ transcription_test_MichaelSpecter_921s.txt
+✓ transcription_test_BillGates_1506s.txt
+✓ transcription_test_JamesCameron_982s.txt
+✓ transcription_validation_Blaise_Agueray_Arcas_381s.txt
+✓ transcription_validation_Craig_Venter_908s.txt
+✓ transcription_validation_David_Merrill_336s.txt
+✓ transcription_validation_Barry_Schwartz_1105s.txt
+✓ transcription_test_JaneMcGonigal_1168s.txt
+✓ transcription_test_RobertGupta_340s.txt
+✓ transcription_validation_Elizabeth_Gilbert_1120s.txt
+✓ transcription_test_EricMead_2009P_EricMead_459s.txt
+✓ transcription_test_DanielKahneman_1096s.txt
+✓ transcription_validation_Al_Gore_291s.txt
+✓ transcription_validation_Brian_Cox_187s.txt
+✓ transcription_test_DanBarber_2010_S103_6s.txt
+✓ transcription_test_DanBarber_834s.txt
+✓ transcription_test_AimeeMullins_1249s.txt
+✓ transcription_validation_Wade_Davis_1299s.txt
+
+Partially Successful Files:
+
+Failed Files:
