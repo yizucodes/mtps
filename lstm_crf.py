@@ -153,7 +153,7 @@ class LSTM_CRF(nn.Module):
             lstm_out = lstm_out.transpose(0, 1) if lstm_out.shape[0] == sentences.shape[1] else lstm_out
             lstm_out = self.dropout(lstm_out)
             emissions = self.hidden2tag(lstm_out)
-            predictions = self.crf.viterbi_decode(emissions, mask=mask)
+            predictions = self.crf._viterbi_decode(emissions, mask=mask)
         return predictions
 
 class NERModel:
