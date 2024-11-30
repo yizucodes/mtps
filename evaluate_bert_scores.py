@@ -51,7 +51,7 @@ def calculate_compression_ratio(original_text, generated_summary):
 def main():
     # Paths to the directories
     base_dir = 'data/summarized_texts_v2'
-    transcriptions_dir = 'data'
+    transcriptions_dir = 'data/transcripts'
     eval_reports_dir = 'data/eval_reports'
 
     # Ensure the eval_reports directory exists
