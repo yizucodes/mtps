@@ -1,6 +1,6 @@
 # Multimodal Text Processing System: An Integrated Approach
 
-This repository implements a pipeline for processing long-form audio using OpenAI's Whisper model and summarizing the transcriptions. The pipeline is designed for efficient handling of large datasets, including audio chunking, transcription, and summarization.
+This repository implements a pipeline for processing long-form audio and integrating multiple NLP tasks, including speech-to-text transcription, text summarization, and text classification. The system utilizes state-of-the-art transformer models and deep learning techniques for efficient handling of multimodal data.
 
 ## Project Overview
 
@@ -16,8 +16,8 @@ The pipeline consists of the following components:
    - Summarizes transcriptions using Facebook's BART large model (`facebook/bart-large-cnn`).
    - Preprocesses transcription text by:
      - Removing filler words and repetitions.
-     - Restoring punctuation using the DeepMultilingualPunctuation library.
-     - Correcting grammar with LanguageTool.
+     - Restoring punctuation using the `DeepMultilingualPunctuation` library.
+     - Correcting grammar with `LanguageTool`.
    - Splits long text into manageable chunks for summarization.
    - Outputs summarized text for each transcription.
 
@@ -25,6 +25,10 @@ The pipeline consists of the following components:
    - Automates the transcription and summarization process.
    - Ensures the creation of all intermediate files (e.g., transcription logs, summarized texts).
    - Verifies output integrity at each step to ensure pipeline robustness.
+
+4. **Post-Processing with Notebook**:
+   - Use the combined summaries file (`combined_summaries.txt`) in `demo` folder as input for the `Final_LSTMCRF.ipynb` notebook.
+   - Perform downstream NLP tasks such as NER or sequence tagging.
 
 ## Features
 
@@ -119,7 +123,6 @@ OVERLAP_SEC = 2       # Overlap for context continuity
 
 ### Chunking Overlap Rationale
 The 2-second overlap is designed to capture complete phrases (4-6 words) at chunk boundaries, based on average English speaking rates of 2-3 words per second. This duration aligns with natural speech patterns including sentence transitions and pauses (0.5-3 seconds), ensuring smooth context preservation between consecutive 30-second chunks.
-
 
 ### Optional
 
