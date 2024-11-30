@@ -47,7 +47,8 @@ def run_pipeline():
         if not os.path.exists(final_file):
             raise Exception("Final combined file was not created!")
         
-        # TODO: Add Classification on combined summary
+        # Step 4: Classification
+        # Use the file (`combined_summaries.txt`) in `demo` folder as input for the `Final_LSTMCRF.ipynb` notebook.
         
         # Calculate total execution time
         execution_time = time.time() - start_time
