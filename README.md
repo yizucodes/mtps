@@ -10,7 +10,8 @@ The pipeline consists of the following components:
    - Uses OpenAI's Whisper base model for transcription.
    - Processes long-form audio by splitting it into 30-second chunks with a 2-second overlap to ensure continuity in transcription.
    - Supports long audio datasets like the TEDLIUM long-form dataset.
-   - Outputs transcriptions for each audio sample in text format.
+   - Outputs transcriptions for each audio sample in text format to a designated directory..
+   - File: `whisper_transcriber_demo.py`.
 
 2. **Text Summarization**:
    - Summarizes transcriptions using Facebook's BART large model (`facebook/bart-large-cnn`).
@@ -20,6 +21,7 @@ The pipeline consists of the following components:
      - Correcting grammar with `LanguageTool`.
    - Splits long text into manageable chunks for summarization.
    - Outputs summarized text for each transcription.
+   - File: `batch_text_summarizer_demo.py`
 
 3. **Pipeline Orchestration**:
    - Automates the transcription and summarization process.
@@ -31,31 +33,6 @@ The pipeline consists of the following components:
    - Identifies and classifies key entities (people, organizations, locations) in the summaries.
    - Generates detailed entity analysis reports with classification metrics.
    - Outputs structured NER data for further downstream processing.
-   - Use the file (`combined_summaries.txt`) in `demo` folder as input for the `Final_LSTMCRF.ipynb` notebook.
-
-## Features
-
-- **Chunking Strategy**: Handles Whisper's input size limitation with a configurable chunking mechanism.
-- **Summarization Enhancements**:
-  - Handles long-form transcriptions efficiently.
-  - Includes post-processing to improve summary readability.
-- **Error Handling**: Comprehensive error tracking and reporting at every pipeline stage.
-
-## Workflow
-
-1. **Transcription**:
-   - Process audio files using `whisper_transcriber_demo.py`.
-   - Outputs transcriptions to a designated directory.
-
-2. **Summarization**:
-   - Process transcription files using `batch_text_summarizer_demo.py`.
-   - Outputs summarized texts into a separate directory.
-
-3. **Pipeline Execution**:
-   - Run the complete pipeline with `run_pipeline.py`.
-   - Combines transcription and summarization steps with logging and verification.
-
-4. **Classification**:
    - Use the file (`combined_summaries.txt`) in `demo` folder as input for the `Final_LSTMCRF.ipynb` notebook.
 
 ## Dataset
@@ -113,6 +90,16 @@ conda install -c conda-forge python-dotenv
 3. Run pipeline to transcribe speech to text and summarize transcriptions:
 ```bash
 python run_pipeline.py
+```
+
+4. Run NER analysis on summaries:
+```bash
+# Open Jupyter notebook
+jupyter notebook Final_LSTMCRF.ipynb
+
+# Use combined_summaries.txt from demo/ folder as input
+# Run classification using LSTM-CRF model trained on CoNLL dataset
+
 ```
 
 ## Technical Details
