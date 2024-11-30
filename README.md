@@ -11,7 +11,7 @@ The pipeline consists of the following components:
    - Processes long-form audio by splitting it into 30-second chunks with a 2-second overlap to ensure continuity in transcription.
    - Supports long audio datasets like the TEDLIUM long-form dataset.
    - Outputs transcriptions for each audio sample in text format to a designated directory..
-   - File: `whisper_transcriber_demo.py`.
+   - File: `whisper_transcriber.py`.
 
 2. **Text Summarization**:
    - Summarizes transcriptions using Facebook's BART large model (`facebook/bart-large-cnn`).
@@ -21,7 +21,7 @@ The pipeline consists of the following components:
      - Correcting grammar with `LanguageTool`.
    - Splits long text into manageable chunks for summarization.
    - Outputs summarized text for each transcription.
-   - File: `batch_text_summarizer_demo.py`
+   - File: `batch_text_summarizer.py`
 
 3. **Pipeline Orchestration**:
    - Automates the transcription and summarization process.
