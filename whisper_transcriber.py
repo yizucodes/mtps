@@ -166,4 +166,4 @@ def process_samples(num_transcriptions=5):
         print(traceback.format_exc())
 
 if __name__ == "__main__":
-    process_samples(3)  # Process 3 transcriptions by default
+    process_samples(1)  # Process 3 transcriptions by default

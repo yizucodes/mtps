@@ -13,7 +13,7 @@ def run_pipeline():
     try:
         # Step 1: Run Whisper Transcriber
         print("\n1. Starting Speech-to-Text Transcription...")
-        subprocess.run(["python", "whisper_transcriber_demo.py"], check=True)
+        subprocess.run(["python", "whisper_transcriber.py"], check=True)
         print("✓ Transcription completed successfully")
         
         # Check if transcription files were created
@@ -24,7 +24,7 @@ def run_pipeline():
         
         # Step 2: Run Text Summarizer
         print("\n2. Starting Text Summarization...")
-        subprocess.run(["python", "batch_text_summarizer_demo.py"], check=True)
+        subprocess.run(["python", "batch_text_summarizer.py"], check=True)
         print("✓ Summarization completed successfully")
         
         # Check if summary files were created
@@ -39,7 +39,7 @@ def run_pipeline():
         
         # Step 3: Concatenate Summaries
         print("\n3. Concatenating Summaries...")
-        subprocess.run(["python", "concat_summaries_demo.py"], check=True)
+        subprocess.run(["python", "concatenate_summaries.py"], check=True)
         print("✓ Concatenation completed successfully")
         
         # Verify final concatenated file
