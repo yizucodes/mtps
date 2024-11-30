@@ -56,20 +56,24 @@ def process_audio_chunks(audio_array, sampling_rate, processor, model, device):
     print("\nChunk processing complete!")
     return ' '.join(chunks_transcription)
 
-def process_all_samples():
+def process_samples(num_transcriptions=5):
     """
-    Process all samples from the TEDLIUM long-form dataset
+    Process specified number of samples from the TEDLIUM long-form dataset
+    Args:
+        num_transcriptions (int): Number of transcriptions to process (default: 5)
     """
-    print("Loading TEDLIUM long-form dataset...")
+    print(f"Loading TEDLIUM long-form dataset (processing {num_transcriptions} samples)...")
     try:
         # Create output directory
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_dir = f"transcriptions_{timestamp}"
+        #output_dir = f"transcriptions_{timestamp}"
+        output_dir = "demo"
         os.makedirs(output_dir, exist_ok=True)
         
         # Load both validation and test splits
         splits = ['validation', 'test']
         all_results = []
+        samples_processed = 0
         
         # Initialize Whisper (do this once outside the loop)
         device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
@@ -79,14 +83,20 @@ def process_all_samples():
         processor = WhisperProcessor.from_pretrained("openai/whisper-base")
         model = WhisperForConditionalGeneration.from_pretrained("openai/whisper-base").to(device)
         
-        # Process each split
+        # Process each split until we reach desired number of transcriptions
         for split in splits:
+            if samples_processed >= num_transcriptions:
+                break
+                
             dataset = load_dataset("distil-whisper/tedlium-long-form", split=split)
-            print(f"\nProcessing {split} split with {len(dataset)} samples")
+            print(f"\nProcessing {split} split")
             
             # Process each sample in the split
             for idx, sample in enumerate(dataset):
-                print(f"\nProcessing {split} sample {idx+1}/{len(dataset)}")
+                if samples_processed >= num_transcriptions:
+                    break
+                    
+                print(f"\nProcessing sample {samples_processed + 1}/{num_transcriptions}")
                 print(f"Speaker ID: {sample['speaker_id']}")
                 
                 duration = len(sample['audio']['array']) / sample['audio']['sampling_rate']
@@ -122,31 +132,33 @@ def process_all_samples():
                     'filename': filename
                 }
                 all_results.append(result)
+                samples_processed += 1
                 
                 print(f"Results saved to: {filename}")
         
         # Save summary report
-        summary_file = f"{output_dir}/summary_report.txt"
-        with open(summary_file, 'w') as f:
-            f.write("=== TEDLIUM Long Form Transcription Summary ===\n\n")
-            f.write(f"Processing date: {timestamp}\n")
-            f.write(f"Total samples processed: {len(all_results)}\n\n")
+        # summary_file = f"{output_dir}/summary_report.txt"
+        # with open(summary_file, 'w') as f:
+        #     f.write("=== TEDLIUM Long Form Transcription Summary ===\n\n")
+        #     f.write(f"Processing date: {timestamp}\n")
+        #     f.write(f"Total samples processed: {len(all_results)}\n\n")
             
-            for split in splits:
-                split_results = [r for r in all_results if r['split'] == split]
-                f.write(f"\n{split.upper()} Split Summary:\n")
-                f.write(f"Number of samples: {len(split_results)}\n")
-                f.write(f"Total duration: {sum(r['duration'] for r in split_results)/60:.2f} minutes\n")
-                
-                for result in split_results:
-                    f.write(f"\n- Speaker: {result['speaker_id']}\n")
-                    f.write(f"  Duration: {result['duration']/60:.2f} minutes\n")
-                    f.write(f"  Original text length: {result['original_length']} chars\n")
-                    f.write(f"  Transcription length: {result['transcription_length']} chars\n")
+        #     for split in splits:
+        #         split_results = [r for r in all_results if r['split'] == split]
+        #         if split_results:
+        #             f.write(f"\n{split.upper()} Split Summary:\n")
+        #             f.write(f"Number of samples: {len(split_results)}\n")
+        #             f.write(f"Total duration: {sum(r['duration'] for r in split_results)/60:.2f} minutes\n")
+                    
+        #             for result in split_results:
+        #                 f.write(f"\n- Speaker: {result['speaker_id']}\n")
+        #                 f.write(f"  Duration: {result['duration']/60:.2f} minutes\n")
+        #                 f.write(f"  Original text length: {result['original_length']} chars\n")
+        #                 f.write(f"  Transcription length: {result['transcription_length']} chars\n")
         
-        print(f"\nProcessing completed successfully!")
-        print(f"All results saved in: {output_dir}")
-        print(f"Summary report: {summary_file}")
+        # print(f"\nProcessing completed successfully!")
+        # print(f"All results saved in: {output_dir}")
+        # print(f"Summary report: {summary_file}")
         
     except Exception as e:
         print(f"Error: {str(e)}")
@@ -154,4 +166,4 @@ def process_all_samples():
         print(traceback.format_exc())
 
 if __name__ == "__main__":
-    process_all_samples()
+    process_samples(3)  # Process 3 transcriptions by default

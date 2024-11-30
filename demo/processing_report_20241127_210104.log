@@ -1,0 +1,14 @@
+Text Summarization Processing Report
+========================================
+
+Processing Time: 2024-11-27 21:01:04.759606
+Total Files Processed: 3
+
+Successful Files:
+✓ transcription_validation_Blaise_Agueray_Arcas_381s.txt
+✓ transcription_validation_Barry_Schwartz_1105s.txt
+✓ transcription_validation_Al_Gore_291s.txt
+
+Partially Successful Files:
+
+Failed Files:
