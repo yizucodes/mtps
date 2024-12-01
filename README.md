@@ -102,6 +102,11 @@ jupyter notebook Final_LSTMCRF.ipynb
 
 ```
 
+### Demo
+
+To see a demo of the pipeline in action, watch the video [here](https://www.youtube.com/watch?v=ti1BQragLaw).
+To see a demo of the classification process in action, watch the video [here](https://www.youtube.com/watch?v=6S_QZQm_eXg).
+
 ## Technical Details
 
 ### Whisper Configuration
