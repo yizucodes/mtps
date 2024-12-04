@@ -146,6 +146,7 @@ File: transcription_test_DanBarber_834s.txt
 --------------------------------------------------
 
 Summary Statistics:
+Average WER: 0.3082
 Best WER: 0.0077
 Worst WER: 0.4016
 Median WER: 0.3148

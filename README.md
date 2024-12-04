@@ -302,7 +302,7 @@ python wer_calculator.py
 Word Error Rate (WER) is a metric that measures the accuracy of speech recognition systems by calculating the minimum number of word insertions, deletions, and substitutions needed to transform the predicted transcript into the reference transcript, divided by the number of words in the reference. A WER of 0.32 means that approximately 32% of words contain errors compared to the reference transcript, where a lower score indicates better performance (e.g., a WER of 0 would mean perfect transcription).
 
 ### Performance metrics:
-- Average WER: 0.3240
+- Average WER: 0.3082
 - Processing both validation and test splits
 - Total samples processed: 19
 - Consistent performance across different speakers
@@ -310,8 +310,8 @@ Word Error Rate (WER) is a metric that measures the accuracy of speech recogniti
 
 ### WER Calculation
 - Implemented both using jiwer library and from scratch
-- Current average WER: 0.3240 (32.4%)
-- Best performing sample: 0.2644 (26.44%)
+- Current average WER: 0.3082 (30.82%)
+- Best performing sample: 0.0077 (0.77%)
 - Worst performing sample: 0.4016 (40.16%)
 
 
