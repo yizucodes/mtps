@@ -12,12 +12,12 @@ import glob
 import logging
 from datetime import datetime
 
-# Setup logging
+# Setup logging 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Initialize models and tools
+# Initialize models and tools 
 nltk.download('punkt', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
 punctuation_model = PunctuationModel()
@@ -99,7 +99,7 @@ def preprocess_transcription(text):
     # Replace typographic apostrophes
     text = text.replace('’', "'")
 
-    # Remove filler words
+    # Removing filter words
     filler_words = [
         'um', 'uh', 'you know', 'like', 'i mean', 'hmm', 'ah', 'er', 'uhm',
         'you see', 'basically', 'actually', 'sort of', 'kind of', 'you know what i mean',

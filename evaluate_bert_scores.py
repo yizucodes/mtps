@@ -107,7 +107,7 @@ def main():
             report.write(f"Compression Ratio: {compression_ratio:.4f}\n")
             report.write("--------------------------------------------------\n")
 
-        # Calculate averages
+        # Calculating averages
         if total_files > 0:
             avg_precision = total_precision / total_files
             avg_recall = total_recall / total_files

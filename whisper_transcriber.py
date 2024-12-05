@@ -12,7 +12,7 @@ def process_audio_chunks(audio_array, sampling_rate, processor, model, device):
     CHUNK_LENGTH_SEC = 30
     OVERLAP_SEC = 2
     
-    # Calculate sizes in samples
+    # Calculating sizes in samples
     chunk_length = CHUNK_LENGTH_SEC * sampling_rate
     overlap_length = OVERLAP_SEC * sampling_rate
     stride_length = chunk_length - overlap_length

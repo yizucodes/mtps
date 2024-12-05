@@ -13,10 +13,10 @@ def concatenate_summaries_clean(directory):
     Returns:
         str: Path to the concatenated file
     """
-    # Construct the path to summarized_texts_v2 directory
+    # Constructing the path to summarized_texts_v2 directory
     summary_dir = os.path.join(directory, 'summarized_texts_demo')
 
-    # Check if directory exists
+    # Checking if directory exists
     if not os.path.exists(summary_dir):
         raise ValueError(f"Directory not found: {summary_dir}")
 

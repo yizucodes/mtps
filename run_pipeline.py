@@ -11,7 +11,7 @@ def run_pipeline():
     os.makedirs("demo", exist_ok=True)
     
     try:
-        # Step 1: Run Whisper Transcriber
+        # Step 1: Running the Whisper Transcriber
         print("\n1. Starting Speech-to-Text Transcription...")
         subprocess.run(["python", "whisper_transcriber.py"], check=True)
         print("✓ Transcription completed successfully")

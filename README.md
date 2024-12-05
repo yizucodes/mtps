@@ -10,7 +10,7 @@ The pipeline consists of the following components:
    - Uses OpenAI's Whisper base model for transcription.
    - Processes long-form audio by splitting it into 30-second chunks with a 2-second overlap to ensure continuity in transcription.
    - Supports long audio datasets like the TEDLIUM long-form dataset.
-   - Outputs transcriptions for each audio sample in text format to a designated directory..
+   - Outputs transcriptions for each audio sample in text format to a designated directory.
    - File: `whisper_transcriber.py`.
 
 2. **Text Summarization**:
@@ -104,8 +104,11 @@ jupyter notebook Final_LSTMCRF.ipynb
 
 ### Demo
 
-To see a demo of the pipeline in action, watch the video [here](https://www.youtube.com/watch?v=ti1BQragLaw).
-To see a demo of the classification process in action, watch the video [here](https://www.youtube.com/watch?v=6S_QZQm_eXg).
+#### Spech to Text and Text Summarization Pipeline
+[![Demo of the pipeline](https://img.youtube.com/vi/ti1BQragLaw/0.jpg)](https://www.youtube.com/watch?v=ti1BQragLaw)
+
+#### Classification Process
+[![Demo of the classification process](https://img.youtube.com/vi/6S_QZQm_eXg/0.jpg)](https://www.youtube.com/watch?v=6S_QZQm_eXg)
 
 ## Technical Details
 
@@ -418,3 +421,5 @@ These results demonstrate the model's robust performance in identifying named en
 1. TEDLIUM Dataset: [distil-whisper/tedlium-long-form](https://huggingface.co/datasets/distil-whisper/tedlium-long-form)
 2. CoNLL-2003 Dataset: [eriktks/conll2003](https://huggingface.co/datasets/eriktks/conll2003)
 3. Whisper Model: [openai/whisper-base](https://huggingface.co/openai/whisper-base)
+4. Bart Large CNN: [bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)
+5. BiLSTM-CRF by Pytorch: [Advanced: Making Dynamic Decisions and the Bi-LSTM CRF](https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html)
